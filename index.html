@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  color: #ff00ff;
+  text-shadow: 
+    0 0 5px #ff00ff, 
+    0 0 10px #ff00ff, 
+    0 0 20px #ff00ff, 
+    0 0 40px #ff00ff, 
+    0 0 80px #ff00ff;
+  animation: glow 1.5s infinite alternate, float 3s ease-in-out infinite;
+}
+
+/* Neon glow animation */
+@keyframes glow {
+  from {
+    text-shadow: 
+      0 0 5px #ff00ff, 
+      0 0 10px #ff00ff, 
+      0 0 20px #ff00ff, 
+      0 0 40px #ff00ff, 
+      0 0 80px #ff00ff;
+    color: #ff00ff;
+  }
+  to {
+    text-shadow: 
+      0 0 10px #ff00ff, 
+      0 0 20px #ff00ff, 
+      0 0 40px #ff00ff, 
+      0 0 60px #ff00ff, 
+      0 0 100px #ff00ff;
+    color: #ff66ff;
+  }
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+</style>
+</head>
+<body>
+
+<h1>Sorry AKKa</h1>
+
+</body>
+</html>
